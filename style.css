@@ -4,21 +4,17 @@
 
 
 
-.container{
+.g{
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 2000vh;
+   
 }
 
 
 
 
-@media only screen and (min-width: 500px) {
-    .container {
-      background-color: rgb(0, 0, 0);
-    }
-  }
+
 
 
 
@@ -226,7 +222,7 @@
   }
   
   .register-btn{
-  +
+  
 
    color: white;
    font-size: large;
@@ -235,7 +231,7 @@
     background-color: green;
    
     padding: 4%;
-    margin: 16%;
+    margin: 5%;
     border-radius: 30px;
     
   }
@@ -245,3 +241,54 @@
     text-align: center;
 
   }
+  #h3{
+   
+    background-color: rgb(60, 0, 42);
+  }
+  .h3{
+
+    background-color: rgb(44, 0, 31);
+  }
+
+  .ptm-image-container {
+
+    text-align: center; /* Center images horizontally */
+  }
+
+  .ptm-small-image {
+    
+    height: 24px;
+    width: 50px;
+    display: inline-block; /* Display images in one line */
+    margin: 5px; /* Add some margin between images */
+  }
+
+  .arrow{
+   
+        margin: auto;
+        width: 10%;
+      
+        padding: 9px;
+      }
+  
+      .h6{
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin-left: 34%;
+        color: rgb(5, 255, 84);
+        text-align: center;
+        padding-bottom: 0px;
+      }
+      .h1{
+    
+        padding-top: 0px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-align: center;
+        color: aqua;
+      }
+
+      .p1{
+        font-size: smaller;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        color: rgb(158, 231, 206);
+        text-align: center;
+      }
